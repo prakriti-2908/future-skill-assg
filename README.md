@@ -1,3 +1,6 @@
+
+
+
 # Help Center API Assignment
 
 ## Instructions
