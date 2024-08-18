@@ -1,0 +1,51 @@
+.footer{
+    width: 98vw;
+    background-color: black;
+    margin: 0px 5px 5px 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer table{
+    position: relative;
+    width: 90%;
+    margin: auto;
+    /* padding: 10px 70px; */
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.footer table tr th{
+    text-align: left;
+    margin-bottom: 10px !important;
+    line-height: 3rem;
+}
+
+th{
+    font-size: 21px;
+    /* font-weight: 40px; */
+}
+
+td, th{
+    color: #FFFBEE !important;
+}
+
+.absolute{
+    color: white;
+    position: relative;
+
+    bottom: 50px;
+    padding-left: 70rem;
+    line-height: 1.5rem;
+}
+
+.absolute img{
+    max-width: 40px;
+    border-radius: 10px;
+}
+
+.bold{
+    font-weight: 700;
+}

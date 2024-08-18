@@ -1,0 +1,43 @@
+.hero{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero h1{
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.hero input{
+    width: 50vw;
+    /* height: 7vh; */
+    border: 1px solid #656469;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    font-size: large;
+}
+
+.hero i{
+    position: absolute;
+    bottom: 90px;
+    right: 24%;
+    font-size: 30px;
+    cursor: pointer;
+    color: #0E0E0E;
+}
+
+.hero input::placeholder{
+    font-size: large;
+    font-weight: 200;
+    color: #BBBCBC;
+}
+
+.hero input:focus{
+    outline: none;
+}

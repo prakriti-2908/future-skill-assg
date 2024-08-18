@@ -1,0 +1,13 @@
+.element-container{
+    background-color: #FFFFFF !important;
+    /* height: 50vh; */
+    display: grid;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+    column-gap: 5rem;
+    row-gap: 30px;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

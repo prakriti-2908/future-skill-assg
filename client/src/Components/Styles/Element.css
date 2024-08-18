@@ -1,0 +1,25 @@
+.element{
+    background-color: #F4F6F8;
+    max-width: 30vw;
+    
+    color: #47433E;
+    border: 2px solid #D8E0EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    border-radius: 10px;
+
+    margin-left: 30px;
+    flex: 0 1 auto;
+}
+
+.element .title-div{
+    border-bottom: 1px solid #D8E0EB;
+    padding: 10px 20px;
+
+}
+
+.element .desc-div{
+    padding: 15px 20px;
+}
