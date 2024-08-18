@@ -38,6 +38,10 @@
    - Write the following in the `.env` file:
      ```env
      PORT=5000
-     MONGO_URI=Add your mongo uri here (MongoDB Atlas), please let me know in case you need my mongo uri, Thanks!
+     MONGO_URI=`Add your mongo uri here (MongoDB Atlas), please let me know in case you need my mongo uri, Thanks!`
      ```
+
+5. **Using the UI**
+   - To filter out existing cards, write the title of the card in the search bar. Debouncing is implemented to enhance the search experience.
+   - To add a new card entry to the database from the UI, click the "Submit Request" button.
 
